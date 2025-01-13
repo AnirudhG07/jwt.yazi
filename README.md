@@ -21,6 +21,6 @@ native Lua support or releasing the Go code in this repository.
 [plugin]
 prepend_previewers = [
 	# Archive previewer
-	{ name = "*.jwt", run = "jwt-preview" },
+	{ name = "*.jwt", run = "jwt" },
 ]
 ```
