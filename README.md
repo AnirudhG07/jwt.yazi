@@ -7,6 +7,10 @@ native Lua support or releasing the Go code in this repository.
 
 - jwt-decoder binary in PATH
 
+## Screenshots
+
+![Screenshot](./docs/jwt-decoder-in-action.png)
+
 ## Usage
 
 1. Run `ya pack -a `
