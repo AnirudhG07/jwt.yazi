@@ -13,4 +13,14 @@ native Lua support or releasing the Go code in this repository.
 
 ## Usage
 
-1. Run `ya pack -a `
+1. Run `ya pack -a smangels/jwt`
+
+## Configuration In Yazi
+
+```tom
+[plugin]
+prepend_previewers = [
+	# Archive previewer
+	{ name = "*.jwt", run = "jwt-preview" },
+]
+```
