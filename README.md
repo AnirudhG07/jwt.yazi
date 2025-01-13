@@ -17,7 +17,7 @@ native Lua support or releasing the Go code in this repository.
 
 ## Configuration In Yazi
 
-```tom
+```toml
 [plugin]
 prepend_previewers = [
 	# Archive previewer
